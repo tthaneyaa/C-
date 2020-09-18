@@ -1,11 +1,13 @@
 #include "main.h"
 
 int main(){
-	std::cout << "Hello World" << std::endl;
-	std::cout << "Hello World"
-			  << "Hello World" 
-			  << std::endl;
+	int VariavelDoTipoInteiro;
+	double VariavelDoTipoNaoInteira;
 
+	VariavelDoTipoInteiro = 5;
+	VariavelDoTipoNaoInteiro = 4.8; 
 	int nInteiro = 5;
-	std::cout << "o numero inteiro é:" << nInteiro << std::endl;
+
+	std::cout << "o numero inteiro é:" << VariavelDoTipoInteiro << std::endl;
+	std::cout << "o numero não inteiro é:" << VariavelDoTipoNaoInteiro << std::endl;
 }
